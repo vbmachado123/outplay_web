@@ -16,11 +16,19 @@ function App() {
           alignItems="center"
           justifyContent="center"
           position="relative"
+          flexDirection="column" // Para dispositivos menores, alinha os itens verticalmente
+
           height="100vh"
-          maxWidth={"80vw"}
           spacing={3}
+          marginY={4}
+
         >
-          <Paper elevation={5} sx={{ minWidth: 500, paddingX: 4 }}>
+          <Paper elevation={5} sx={{
+            maxWidth: "100%", // O container ocupará 100% da largura para dispositivos menores
+            '@media (min-width: 600px)': {
+              maxWidth: "80vw", // Para dispositivos maiores, volta ao valor original
+            },
+          }}>
             <Stack height="100%"
               width="100%"
               justifyContent={'space-between'}
