@@ -17,6 +17,7 @@ function App() {
           justifyContent="center"
           position="relative"
           height="100vh"
+          maxWidth={"80vw"}
           spacing={3}
         >
           <Paper elevation={5} sx={{ minWidth: 500, paddingX: 4 }}>
