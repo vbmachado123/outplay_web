@@ -1,7 +1,6 @@
 import { Dialog, DialogTitle, IconButton, DialogContent, Stack, Typography } from "@mui/material";
 import { WinnerProps } from "../../../services/interfaces/RegisterService";
 import { Close } from '@mui/icons-material'
-import { MultipleStyleText } from "../../reusable/MultipleStyleText";
 
 interface RulesDialogProps {
     open: boolean
