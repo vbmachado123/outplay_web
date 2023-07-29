@@ -6,7 +6,6 @@ import { RegisterForm } from './components/forms/RegisterForms';
 import Logo from './assets/logo.png'
 import { MuiTheme } from './settings/MuiTheme'
 
-
 function App() {
 
   return (
@@ -20,9 +19,8 @@ function App() {
 
           height="100vh"
           spacing={3}
-          marginY={4}
+          marginY={4}>
 
-        >
           <Paper elevation={5} sx={{
             maxWidth: "100%", // O container ocupará 100% da largura para dispositivos menores
             '@media (min-width: 600px)': {
