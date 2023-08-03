@@ -1,0 +1,8 @@
+{
+    "build": {
+      "env": {
+        "VERCEL_ROUTER_INCLUDE": "http://188.34.166.175:8083/"
+      }
+    }
+  }
+  
