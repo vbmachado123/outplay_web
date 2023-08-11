@@ -1,7 +1,7 @@
 import axios, { AxiosInstance } from "axios";
 import { RegisterProps, WinnerProps } from "./interfaces/RegisterService";
 
-const BASE_URL = 'https://188.34.166.175:8083/api/v1';
+const BASE_URL = 'http://191.252.111.68:8080/api/v1';
 
 const userService: AxiosInstance = axios.create({
     baseURL: BASE_URL,
