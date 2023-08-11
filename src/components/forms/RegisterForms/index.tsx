@@ -13,13 +13,14 @@ import 'react-toastify/dist/ReactToastify.css';
 
 export const RegisterForm: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false)
-    const initialValues: RegisterProps = useMemo(() => ({ nome: "", email: "", telefone: "" }), [])
+    const initialValues: RegisterProps = useMemo(() => ({ nome: "", email: "", telefone: "", perfil: "" }), [])
     const [details, setDetails] = useState<WinnerProps | null>(null);
 
     const validationSchema = yup.object({
         nome: yup.string().required('campo obrigatorio'),
         email: yup.string().required('campo obrigatorio'),
         telefone: yup.string().required('campo obrigatorio'),
+        perfil: yup.string().required('campo obrigatorio'),
     })
 
     const notifyError = () => toast.error('Não foi possível realizar essa operação!', {
@@ -87,6 +88,15 @@ export const RegisterForm: React.FC = () => {
                             type="tel"
                             name="telefone"
                             label="Telefone"
+                            top="32"
+                        />
+
+                        <Field
+                            component={TextFormField}
+                            size="large"
+                            required
+                            name="perfil"
+                            label="Perfil do Instagram"
                             top="32"
                         />
 

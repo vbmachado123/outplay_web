@@ -38,7 +38,7 @@ export const RulesDialog: React.FC<RulesDialogProps> = ({
                     </Stack>
 
                     <Typography variant="body1">
-                        Guarde o seu número de participação! o sorteio será realizado em <strong>19/08/23 às 20:00</strong>
+                        Guarde o seu número de participação! o sorteio será realizado em <strong>20/08/23 às 20:00</strong>
                     </Typography>
 
                     <hr/>
