@@ -60,7 +60,7 @@ export const RegisterForm: React.FC = () => {
                         <Stack alignItems={"center"}>
                             <Typography
                                 mb={3} variant="h1" color={'secondary'} >
-                                Sorteio Bicicleta Elétrica
+                                Sorteio Bicicleta Flipper
                             </Typography>
                         </Stack>
 

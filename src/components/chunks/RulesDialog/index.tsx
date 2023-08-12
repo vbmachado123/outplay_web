@@ -38,23 +38,56 @@ export const RulesDialog: React.FC<RulesDialogProps> = ({
                     </Stack>
 
                     <Typography variant="body1">
-                        Guarde o seu número de participação! o sorteio será realizado em <strong>20/08/23 às 20:00</strong>
+                        Guarde o seu número de participação! o sorteio será realizado em <strong>20/08/2023 às 16:30h</strong>
+                    </Typography>
+
+                    <hr />
+                    <Typography variant="body2">
+                        <strong>1. Seguir o nosso perfil no Instagram:</strong> Caso o ganhador não esteja seguindo, será desclassificado.
+                    </Typography>
+                    <Typography variant="body2">
+                        <strong>2. Curtir a publicação do Sorteio:</strong> É necessário que o participante curta a publicação específica feita para o sorteio.
+                    </Typography>
+                    
+                    <Typography variant="body2">
+                        <strong>3. Compartilhar no Instagram Story:</strong> Compartilhe a publicação do sorteio no seu Instagram Story e marque
+                        <a href="https://www.instagram.com/outplaybikestore/"> @outplaybikestore</a>. Lembre-se de que o Story deve ser mantido por 24 horas para ser considerado válido.
+                    </Typography>
+                    <Typography variant="body2">
+                        <strong>4. Participações para contas ativas:</strong> Perfis duplicados ou criados com o intuito de aumentar as chances (fakes) serão desclassificados.
+                    </Typography>
+                    <Typography variant="body2">
+                        <strong>5. Data, horário e local:</strong> O ganhador será selecionado aleatoriamente pelo sistema de cadastros do sorteio. No dia 20/08/2023 às 16:30h. O sorteio será divulgado online através do Instagram
+                        <a href="https://www.instagram.com/outplaybikestore/" >@outplaybikestore</a>.
+                    </Typography>
+                    <Typography variant="body2">
+                        <strong>6. O ganhador será anunciado publicamente e contatado por mensagem:</strong> Será transmitido o nome completo do ganhador na live on-line e o mesmo será contatado através de mensagens pelo WhatsApp.
+                    </Typography>
+                    <Typography variant="body2">
+                        <strong>7. Caso descumprimento das regras o ganhador será desclassificado:</strong> O não cumprimento das regras, desclassificará o participante sorteado. Um novo sorteio acontecerá no mesmo dia e dentro das mesmas normas. Será anunciado em uma live on-line no Instagram
+                        <a href="https://www.instagram.com/outplaybikestore/"> @outplaybikestore</a> o novo horário definido.
                     </Typography>
 
                     <hr/>
-
-                    <Typography variant="body1">Regras de participação:</Typography>
+                    <Typography variant="h6"><strong>Importante</strong></Typography>
+                    <Typography variant="body2">
+                        <strong>Os dados do cadastro, não serão divulgados:</strong> Os dados utilizados no cadastro não serão divulgados e não serão compartilhados. 
+                    </Typography>
+                    <Typography variant="body2">
+                        <strong>Uso de Imagem:</strong> Ao participar do sorteio estará automaticamente autorizando o uso de imagem. Será divulgado no Instagram <a href="https://www.instagram.com/outplaybikestore/">@outplaybikestore</a>  a foto do ganhador com o prêmio.
+                    </Typography>
+                    {/* <Typography variant="body1">Regras de participação:</Typography>
 
                     <Typography variant="body2">
                         <strong>1. Seguir o nosso perfil no Instagram:</strong> Caso o ganhador não esteja seguindo, será desclassificado.
                     </Typography>
 
                     <Typography variant="body2">
-                        <strong>2. Curtir a publicação do sorteio:</strong> Apenas curtidas válidas até o horário do sorteio serão consideradas.
+                        <strong>2. Curtir a publicação do sorteio:</strong>  É necessário que o participante curta a publicação específica feita para o sorteio. 
                     </Typography>
 
                     <Typography variant="body2">
-                        <strong>3. Compartilhar a publicação do sorteio:</strong> O compartilhamento deve ser feito até o horário do sorteio para ser válido.
+                        <strong>3. Compartilhar a publicação do sorteio:</strong> Deverá compartilhar no Story e marcar o @outplaybikestore.
                     </Typography>
 
                     <Typography variant="body2">
@@ -71,7 +104,7 @@ export const RulesDialog: React.FC<RulesDialogProps> = ({
 
                     <Typography variant="body2">
                         <strong>7. Caso o ganhador não cumpra todas as regras ou não responda dentro do prazo, será desclassificado:</strong> Nesse caso, um novo sorteio será realizado para escolher um novo ganhador.
-                    </Typography>
+                    </Typography> */}
                 </Stack>
 
             </DialogContent>
